@@ -23,4 +23,9 @@ contract StorageFactory {
         //Application Binary Interface comes from the import above
     }
 
+    function storageFactoryGet(uint256 _simpleStorageIndex) public view returns(uint256) {
+        SimpleStorage simpleStorage = SimpleStorage(address(simpleStorageArray[_simpleStorageIndex]));
+        return simpleStorage.retrieve();
+    }
+
 }
