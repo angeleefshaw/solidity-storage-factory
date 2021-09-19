@@ -1,10 +1,10 @@
 # About
 Practicing inheritance, factory pattern and interaction with external contracts in Solidity. 
 
-#Compiler 
+# Compiler 
 version 0.6.6
 
-#Technology
+# Technology
 Solidity
 Truffle Suite
 NPM
