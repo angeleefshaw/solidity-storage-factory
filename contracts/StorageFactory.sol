@@ -4,7 +4,8 @@ pragma solidity >=0.4.22 <0.9.0;
 //import SimpleStorage contract to be deployed
 import "./SimpleStorage.sol";
 
-contract StorageFactory {
+//StorageFactory inhereits SimpleStorage with the 'is' keyword. All SimpleStorage variables and functions are availible to StorageFactory
+contract StorageFactory is SimpleStorage{
 
     SimpleStorage[] public simpleStorageArray;
 
