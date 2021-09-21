@@ -1,0 +1,26 @@
+{
+  "name": "solidity-storage-factory",
+  "version": "1.0.0",
+  "description": "Smart-contract",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeleefshaw/solidity-storage-factory.git"
+  },
+  "author": "Angelee Saw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angeleefshaw/solidity-storage-factory/issues"
+  },
+  "homepage": "https://github.com/angeleefshaw/solidity-storage-factory#readme",
+  "dependencies": {
+    "ganache-cli": "^6.12.2",
+    "web3": "^1.5.2"
+  }
+}
